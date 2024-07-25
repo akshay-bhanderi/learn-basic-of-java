@@ -145,6 +145,89 @@ Test your knowledge of Java basics with these multiple-choice questions. Choose 
     - c) To define a method
     - d) To create an object
 
+21. Which of the following is a valid way to create a List in Java?
+    - a) `List<int> list = new ArrayList<>();`
+    - b) `List<Integer> list = new ArrayList<>();`
+    - c) `List<int> list = new List<>();`
+    - d) `List<Integer> list = new List<>();`
+
+22. What is the output of the following code?
+    ```java
+    int a = 10;
+    int b = 20;
+    int c = a + b;
+    System.out.println(c);
+    ```
+    - a) `10`
+    - b) `20`
+    - c) `30`
+    - d) `40`
+
+23. Which of the following is a valid way to create a HashMap in Java?
+    - a) `HashMap<int, String> map = new HashMap<>();`
+    - b) `HashMap<Integer, String> map = new HashMap<>();`
+    - c) `HashMap<int, String> map = new HashMap<int, String>();`
+    - d) `HashMap<Integer, String> map = new HashMap<int, String>();`
+
+24. What is the output of the following code?
+    ```java
+    String str = "Hello";
+    System.out.println(str.length());
+    ```
+    - a) `4`
+    - b) `5`
+    - c) `6`
+    - d) `7`
+
+25. Which of the following is a valid way to create a Set in Java?
+    - a) `Set<int> set = new HashSet<>();`
+    - b) `Set<Integer> set = new HashSet<>();`
+    - c) `Set<int> set = new Set<>();`
+    - d) `Set<Integer> set = new Set<>();`
+
+26. What is the output of the following code?
+    ```java
+    int[] arr = {1, 2, 3, 4, 5};
+    System.out.println(arr[4]);
+    ```
+    - a) `1`
+    - b) `2`
+    - c) `4`
+    - d) `5`
+
+27. Which of the following is a valid way to create a thread in Java?
+    - a) `Thread t = new Thread();`
+    - b) `Thread t = new Thread(new Runnable());`
+    - c) `Thread t = new Thread(new Runnable() { public void run() {} });`
+    - d) `Thread t = new Thread(new Runnable() { public void start() {} });`
+
+28. What is the output of the following code?
+    ```java
+    int x = 10;
+    int y = 5;
+    System.out.println(x - y);
+    ```
+    - a) `5`
+    - b) `10`
+    - c) `15`
+    - d) `20`
+
+29. Which of the following is a valid way to create a generic class in Java?
+    - a) `public class Box<T> { }`
+    - b) `public class Box<> { }`
+    - c) `public class Box<T, U> { }`
+    - d) Both a and c
+
+30. What is the output of the following code?
+    ```java
+    String str = "Java";
+    System.out.println(str.toUpperCase());
+    ```
+    - a) `java`
+    - b) `JAVA`
+    - c) `Java`
+    - d) `jAVA`
+
 ## Answers
 
 1. b
@@ -167,7 +250,17 @@ Test your knowledge of Java basics with these multiple-choice questions. Choose 
 18. a
 19. a
 20. b
+21. b
+22. c
+23. b
+24. b
+25. b
+26. d
+27. c
+28. a
+29. d
+30. b
 
 ---
 
-[<< Previous](7.md) | [Next >>](README.md)
+[<< Previous](13.md) | [Home](README.md) | [Next >>](README.md)
